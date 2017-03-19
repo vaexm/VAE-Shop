@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+body>div{	
+	margin:0 auto;
+}
+#div_Top{
+	width:1000px;
+	height:100px;
+	background-image:url(../images/admin2.gif);
+	background-size:100% 100%;
+}
+#div_Middle{
+	width:1000px;
+}
+#div_Middle_Left,#div_Middle_Right{
+	float:left;
+}
+#div_Middle_Right{
+	width:80%;
+}
+#div_Middle_Left{
+	width:20%;
+	height:400px;
+}
+#div_Footer{
+	width:1000px;
+	height:70px;
+	background-image:url(../images/bottom.gif);
+	background-size:100% 100%;
+	clear:both;
+}
+.menu{
+	margin:0px;
+	padding:0px;
+}
+.firstli> a{
+	background-image:url(../images/admin1.gif);
+	/*背景图像仅显示一次*/
+	background-repeat: no-repeat;
+	width:180px;
+	color:white;	
+	text-decoration:none;
+	display: block;
+	display: inline-block;
+	padding-left:45px;
+	padding-top:5px;
+	padding-bottom:5px
+}
+.Secondul{
+	margin:0px;
+	padding:0px;
+	display:none;
+}
+.Secondul li a{
+	background-image:url(../images/main_sub.gif);
+	background-repeat: no-repeat;
+	width:180px;
+	text-decoration:none;
+	color:black;
+	display: inline-block;
+	padding-left:45px;
+	padding-top:3px;
+	padding-bottom:5px
+}
+.Secondul li a:hover{
+	color:red;
+}
+#div_Middle_Left ul li{
+	list-style:none;
+}
+

@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+body>div{
+	margin:0 auto;
+}
+#div_Top{
+	width:855px;
+	height:115px;
+	background-image:url(../images/shop_02.gif);
+}
+#div_Top ul{
+	margin-left:200px;
+	padding-top:90px;
+}
+#div_Top ul li{
+	list-style-type:none;
+	width:90px;
+	float:left;
+}
+#div_Top ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:14px;
+}
+#div_Middle{
+	width:855px;
+}
+
+#div_Middle_L{
+	width:210px;
+}
+#div_Login{
+	width:210px;
+	height:210px;
+	background-image:url(../images/shop_04.gif);
+}
+#div_Login a{
+	text-decoration:none;
+	color:black;
+}
+#div_Public{
+	width:210px;
+	height:190px;
+	background-image:url(../images/shop_06.gif);
+}
+#div_Public a{
+	text-decoration:none;
+	color:black; font-size:14px;
+}
+#div_Kefu{
+	width:210px;
+	height:70px;
+	background-image:url(../images/shop_11.gif);
+	background-size:100% 100%;
+}
+#div_Link{
+	width:210px;
+	height:210px;
+	background-image:url(../images/shop_13.gif);
+}
+#div_Link1{
+	margin-left:18px;
+	padding-top:40px;
+	font-size:13px;
+}
+#div_Link1 a{
+	text-decoration:none;
+	color:black;
+}
+#div_Middle_L,#div_Middle_R{
+	float:left;
+}
+#div_Middle_R{
+
+}
+#div_Middle_R_Top{
+	width:645px;
+	height:210px;
+	background-image:url(../images/shop_05.gif);
+	
+}
+#div_Middle_R_Bottom_1{
+	width:645px;
+	height:30px;
+	background-image:url(../images/shop_10.gif);
+	
+}
+#div_Middle_R_Bottom_C1{
+	width:645px;
+	height:30px;
+	background-image:url(../images/shop_07.gif);
+	
+}
+#div_Middle_R_Bottom_H1{
+	width:645px;
+	height:30px;
+	background-image:url(../images/shop_14.gif);
+}
+#div_Comment{
+	width:318px;
+	height:340px;float:left;
+	border-left:3px solid #D8D6D6;
+	border-right:3px solid #D8D6D6;
+}
+#div_Comment_Top{
+	width:318px;
+	height:30px;
+	background-image:url(../images/shop_07.gif);
+}
+#div_Hot{
+	width:318px;
+	height:340px;float:left;
+}
+#div_Hot_Top{
+	width:318px;
+	height:30px;
+	background-image:url(../images/shop_14.gif);
+}
+#div_New{
+	width:635px;
+	height:200px; 
+	
+	padding-top:340px;
+	border-left:3px solid #D8D6D6;
+	border-right:3px solid #D8D6D6;
+}
+#div_New_Top{
+	width:635px;
+	height:30px;
+	background-image:url(../images/shop_10.gif);
+}
+#div_Foot{
+	width:855px;
+	height:108px;
+	background-image:url(../images/shop_17.gif);
+	/*不允许两边有浮动对象*/
+	clear:both;
+}
+
+#div1{
+	float:left;
+	padding-left:20px;
+	font-size:14px;
+}
+#div1 a{
+	text-decoration:none;
+}
